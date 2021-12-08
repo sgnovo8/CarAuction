@@ -2,6 +2,7 @@
 
 pragma solidity ^0.5.2;
 
+// any issues BigNumber eg are not in your code but in your deployer
 
 contract Auction{
     mapping(address=> uint)public bids;
